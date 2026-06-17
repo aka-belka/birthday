@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>С Днём Рождения</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💜</text></svg>">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="loader-content">
+            <h1>Loading Birthday Magic</h1>
+        </div>
+    </div>
+
+    <div class="stars" id="stars"></div>
+
+    <section class="hero">
+
+        <div class="hero-bg"></div>
+
+        <div class="hero-container">
+
+            <div class="marquee-top">
+                <div class="marquee-content" id="marqueeTop"></div>
+            </div>
+
+            <div class="hero-title-wrapper">
+                <svg class="hero-title-svg" viewBox="0 0 650 140" xmlns="http://www.w3.org/2000/svg" overflow="visible">
+                    <defs>
+                        <path id="arcPath" d="M 40 100 A 285 90 0 0 1 610 100" />
+                    </defs>
+                    <text class="hero-title-text" font-family="'Poppins', sans-serif" font-weight="700" fill="#ffffff" font-size="36">
+                        <textPath href="#arcPath" startOffset="50%" text-anchor="middle">
+                            С Днём Рождения, сестра 💜
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+
+            <div class="hero-main">
+
+                <div class="hero-photo-wrapper">
+                    <div class="hero-slider">
+                        <div class="slide active" style="background-image: url('assets/hero1.png');"></div>
+                        <div class="slide" style="background-image: url('assets/hero2.png');"></div>
+                        <div class="slide" style="background-image: url('assets/hero3.png');"></div>
+                    </div>
+                    <div class="photo-ring"></div>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom-text">
+                <p>Сегодня весь мир немного ярче,</p>
+                <p>потому что это твой день 💜</p>
+            </div>
+
+            <div class="marquee-bottom">
+                <div class="marquee-content" id="marqueeBottom"></div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="section" style="padding-top: 250px; padding-bottom: 220px">
+        <h2 class="section-title">Плейлист этого дня</h2>
+        <p style="text-align: center; font-size: 1.2rem; opacity: 0.8; margin-bottom: 40px; color: #d9b8ff;">
+            ✨ нажми на песню, чтобы создать настроение ✨
+        </p>
+        <div class="music-grid">
+
+            <div class="song-card" data-song="idol">
+                <h3>IDOL</h3>
+                <p>BTS</p>
+            </div>
+
+            <div class="song-card" data-song="butter">
+                <h3>Butter</h3>
+                <p>BTS</p>
+            </div>
+
+            <div class="song-card" data-song="fake_love">
+                <h3>FAKE LOVE</h3>
+                <p>BTS</p>
+            </div>
+
+            <div class="song-card" data-song="fire">
+                <h3>FIRE</h3>
+                <p>BTS</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="bts" class="section bts-section">
+
+        <h2 class="section-title">
+            Специальные пожелания от BTS
+        </h2>
+
+        <p style="text-align: center; font-size: 1.1rem; opacity: 0.8; margin-bottom: 50px; color: #d9b8ff;">
+            ✨кликни на фото и увидишь, сколько в нём любви✨
+        </p>
+
+        <div class="bts-grid">
+
+            <div class="bts-card">
+                <div class="bts-image">
+                    <img src="assets/bts/rm.png" alt="">
+                </div>
+                <div class="bts-wish">
+                    <p>Пусть все мечты находят правильный путь</p>
+                </div>
+            </div>
+
+            <div class="bts-card reverse">
+                <div class="bts-image">
+                    <img src="assets/bts/jin.png" alt="">
+                </div>
+                <div class="bts-wish">
+                    <p>Желаю, чтобы каждый день приносил радость</p>
+                </div>
+            </div>
+
+            <div class="bts-card">
+                <div class="bts-image">
+                    <img src="assets/bts/suga.png" alt="">
+                </div>
+                <div class="bts-wish">
+                    <p>Чтобы любые вершины покорялись легко</p>
+                </div>
+            </div>
+
+            <div class="bts-card reverse">
+                <div class="bts-image">
+                    <img src="assets/bts/jhope.png" alt="">
+                </div>
+                <div class="bts-wish">
+                    <p>Побольше улыбок и счастливых моментов</p>
+                </div>
+            </div>
+
+            <div class="bts-card">
+                <div class="bts-image">
+                    <img src="assets/bts/jimin.png" alt="">
+                </div>
+                <div class="bts-wish">
+                    <p>Пусть здоровье не подводит</p>
+                </div>
+            </div>
+
+            <div class="bts-card reverse">
+                <div class="bts-image">
+                    <img src="assets/bts/v.png" alt="">
+                </div>
+                <div class="bts-wish">
+                    <p>Чтобы жизнь была яркой и удивительной</p>
+                </div>
+            </div>
+
+            <div class="bts-card">
+                <div class="bts-image">
+                    <img src="assets/bts/jk.png" alt="">
+                </div>
+                <div class="bts-wish">
+                    <p>Новых побед и исполнения желаний</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2 class="section-title">
+            Что я желаю тебе
+        </h2>
+
+        <div class="wish-grid">
+
+            <div class="wish-card">
+                <img src="assets/wishes/money.jpg" alt="">
+                <div class="wish-content">
+                    <p>Пусть деньги приходят легче, чем уходят</p>
+                </div>
+            </div>
+
+            <div class="wish-card">
+                <img src="assets/wishes/travel.jpg" alt="">
+                <div class="wish-content">
+                    <p>Побольше путешествий и моря</p>
+                </div>
+            </div>
+
+            <div class="wish-card">
+                <img src="assets/wishes/patience.jpg" alt="">
+                <div class="wish-content">
+                    <p>Сил и терепения. Пусть они помогают тебе идти вперёд, даже когда трудно</p>
+                </div>
+            </div>
+
+            <div class="wish-card">
+                <img src="assets/wishes/love.jpg" alt="">
+                <div class="wish-content">
+                    <p>Найти настояющую любовь</p>
+                </div>
+            </div>
+
+            <div class="wish-card">
+                <img src="assets/wishes/happiness.jpg" alt="">
+                <div class="wish-content">
+                    <p>И просто побольше счастливых моментов</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section polaroid-section">
+
+        <h2 class="section-title">
+            Галерея воспоминаний
+        </h2>
+
+        <p style="text-align: center; font-size: 1.1rem; opacity: 0.8; margin-bottom: 50px; color: #d9b8ff;">
+            ✨кликни на фото, чтобы увидеть подпись✨
+        </p>
+
+        <div class="polaroid-grid">
+
+            <div class="polaroid-card" data-memory="1">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid1.jpg" alt="Воспоминание 1">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Байкал это место силы для многих. А моё место силы - ты</p>
+                </div>
+            </div>
+
+            <div class="polaroid-card" data-memory="2">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid2.jpg" alt="Воспоминание 2">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Трое из ларца одинаковых с лица</p>
+                </div>
+            </div>
+
+            <div class="polaroid-card" data-memory="3">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid3.jpg" alt="Воспоминание 3">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Эффектная и шикарная девушка</p>
+                </div>
+            </div>
+
+            <div class="polaroid-card" data-memory="4">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid4.jpg" alt="Воспоминание 4">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Сосредоточенная на вечном. И вечно прекрасная</p>
+                </div>
+            </div>
+
+            <div class="polaroid-card" data-memory="5">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid5.jpg" alt="Воспоминание 5">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Парк Горького и две лисички-сестрички</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="6">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid6.jpg" alt="Воспоминание 6">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Просто ты - самая удивительная</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="7">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid7.jpg" alt="Воспоминание 7">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Парящий мост - как твоя душа, свободная и прекрасная</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="8">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid8.jpg" alt="Воспоминание 8">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Веселье и беззаботность твой главный секрет счастья</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="9">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid9.jpg" alt="Воспоминание 9">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Ты точно не цыганка?) В глаза заглядываешь очень проникновенно</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="10">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid10.jpg" alt="Воспоминание 10">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Семья тебя очень любит!</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="11">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid11.jpg" alt="Воспоминание 11">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Твой взор устремлён в будущее, и оно обязательно ответит</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="12">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid12.jpg" alt="Воспоминание 12">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>С тобой хоть на край света</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="4">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid13.jpg" alt="Воспоминание 13">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Пусть из горького в твоей жизни будет только парк</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="4">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid14.jpg" alt="Воспоминание 14">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Здесь есть скульптура партизанки и скульптура Афродиты</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="15">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid15.jpg" alt="Воспоминание 15">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Две 18-летние очаровательности</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="16">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid16.jpg" alt="Воспоминание 16">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>В тебе столько божественного света, что кажется, будто ты спустилась с небес</p>
+                </div>
+            </div>
+            <div class="polaroid-card" data-memory="17">
+                <div class="polaroid-image">
+                    <img src="assets/images/polaroid17.jpg" alt="Воспоминание 17">
+                </div>
+                <div class="polaroid-caption hidden">
+                    <p>Пусть детка будет твоим источником вдохновения</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="final-section">
+
+        <div class="final-content">
+
+            <h2>
+                Happy Birthday
+            </h2>
+
+            <p>
+                Спасибо, что ты есть
+            </p>
+
+            <button id="magicButton">
+                Запустить магию ✨
+            </button>
+
+            <div id="purpleText">
+                I Purple You 💜
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
