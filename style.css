@@ -916,53 +916,6 @@ body{
     .wish-card:nth-child(5) { transform: rotate(-4deg) translateX(-50px); }
 }
 
-@media (max-width: 400px) {
-    .hero-container {
-        gap: 8px;
-        padding: 10px 8px;
-    }
-
-    .hero-title-svg {
-        max-width: 280px;
-        height: 55px;
-    }
-
-    .hero-title-text {
-        font-size: 14px;
-    }
-
-    .hero-main {
-        gap: 8px;
-    }
-
-    .hero-photo-wrapper {
-        width: 120px;
-        height: 120px;
-    }
-
-    .photo-ring {
-        inset: -5px;
-    }
-        .bts-image {
-        width: 80px;
-        height: 80px;
-    }
-
-    .bts-wish {
-        font-size: 0.9rem;
-    }
-
-    .bts-card {
-        padding: 15px;
-    }
-
-    .wish-card:nth-child(1) { transform: rotate(-4deg) translateX(-50px); }
-    .wish-card:nth-child(2) { transform: rotate(4deg) translateX(50px); }
-    .wish-card:nth-child(3) { transform: rotate(-4deg) translateX(-40px); }
-    .wish-card:nth-child(4) { transform: rotate(4deg) translateX(50px); }
-    .wish-card:nth-child(5) { transform: rotate(-4deg) translateX(-50px); }
-}
-
 .heart-burst {
     position: fixed;
     pointer-events: none;
