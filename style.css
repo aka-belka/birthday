@@ -170,7 +170,6 @@ body{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:35px;
-    overflow: hidden; 
 }
 
 
@@ -913,9 +912,9 @@ body{
     }
 
     .wish-card:nth-child(1) { transform: rotate(-4deg) translateX(-50px); }
-    .wish-card:nth-child(2) { transform: rotate(4deg) translateX(50px); }
+    .wish-card:nth-child(2) { transform: rotate(4deg) translateX(22px); }
     .wish-card:nth-child(3) { transform: rotate(-4deg) translateX(-40px); }
-    .wish-card:nth-child(4) { transform: rotate(4deg) translateX(50px); }
+    .wish-card:nth-child(4) { transform: rotate(4deg) translateX(22px); }
     .wish-card:nth-child(5) { transform: rotate(-4deg) translateX(-50px); }
 }
 
